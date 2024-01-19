@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.template{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.forms{
+    background-color: black;
+    border-radius: 10px;
+}
+
+.forms form{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    flex-direction: column;
+}
+
+.forms input,textarea{
+    padding: 10px;
+    margin: 10px;
+}
+
+.forms label {
+    padding-left: 10px;
+    color: white;
+}
+
+.text p{
+    margin-left: 50px;
+    font-weight: 800;
+}
+
+.text p#finaltext{
+    margin-top: 10px;
+    font-weight: 500;
+}
