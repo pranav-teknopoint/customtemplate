@@ -20,7 +20,6 @@ document.getElementById("submittemplate").addEventListener("click", function (e)
     });
     document.getElementById("names").innerHTML += `<input type="button" id="submitnames" value="Execute">`;
     document.getElementById("submitnames").addEventListener("click", function (e) {
-      // e.preventDefault();
       const newWords = [];
       for (let i = 0; i < keywords.length; i++) {
         newWords[i] = document.getElementById(keywords[i]).value;
